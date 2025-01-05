@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif; 
+    font-style: oblique;
+    width: 750px;
+    margin-left: 310px;
+    background-color: rgba(250, 235, 223, 0.301);
+}
+.container {
+    width: 400px; 
+    margin: auto;
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 3px;
+    
+}
+input, select {
+    width: 190px; 
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 12px;
+    box-shadow: 3px 3px 1px black;
+}
+
+
+

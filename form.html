@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGkR_FJXUGrV-2b0LyFuQDHBHoAzK1HeHSTA&s">
+</head>
+<body>
+    <fieldset>
+        <legend align="center"><i><b>PERSONAL DETAILS</b></i></legend>
+        <br>
+    <div class="container">
+        <form>
+            <div class="group">
+                <label>Prefix</label>
+                <select name="prefix">
+                    <option value="mr">Mr.</option>
+                    <option value="mrs">Mrs.</option>
+                    <option value="ms">Ms.</option>
+                </select>
+            </div>
+            <div class="group">
+                <label>FirstName</label>
+                <input type="text" name="name" required placeholder="Varshini">
+            </div>
+            <div class="group">
+                <label>LastName</label>
+                <input type="text" maxlength="20" size="20" required placeholder="G">
+            </div>
+            <div class="group">
+                <label>Reg Number</label>
+                <input type="text" maxlength="20" size="20" placeholder="111347890354">
+            </div>
+            <div class="group">
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="group">
+                <label>DOB</label>
+                <input type="date" name="dob">
+            </div>
+            <div class="group">
+                <label for="mail">Email</label>
+                <input type="email" name="mail" placeholder="Personal">
+            </div>
+            <div class="group">
+                <label>Mobile Number</label>
+                <input type="number" maxlength="20" size="20">
+            </div>
+            <div class="group">
+               <label>State</label>
+               <input type="text">
+            </div>
+            <div class="group">
+               <label>Native City</label>
+               <input type="text">
+            </div>
+            <div class="group">
+                <label>Skills</label>
+                <select name="skills">
+                    <option value="java">JAVA</option>
+                    <option value="python">PYTHON</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>  
+                    <option value="c">C</option>
+                    <option value="c++">C++</option>
+                </select>
+            </div>
+            <div class="group">
+                <label>Create Password</label>
+                <input type="password" required>
+            </div>
+        </div>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend align="center"><i><b>EDUCATIONAL DETAILS</b></i></legend>
+            <br>
+        <div class="container">
+            <div class="group">
+                <label>10th Percentage</label>
+                <input type="text" placeholder="100%">
+            </div>
+            <div class="group">
+                <label>12th Percentage</label>
+                <input type="text" placeholder="100%">
+            </div>
+            <div class="group">
+                <label>Degree</label>
+                <select>
+                    <option>B.E</option>
+                    <option>B.TECH</option>
+                    <option>MCA</option>
+                    <option>MBA</option>
+                </select>
+            </div>
+            <div class="group">
+                <label>Stream</label>
+                <select>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>CSE</option>
+                    <option>IT</option>
+                </select>
+            </div>
+            <div class="group">
+                <label>College Name</label>
+                <input type="text">
+            </div>
+            <div class="group">
+                <label >Pass-out Year</label>
+                <input type="number" id="passout-year" name="passout-year" min="2020" max="2025" step="1">
+            </div>
+            
+            <div class="group">
+                <label>Aggregate percent</label>
+                <input type="text">
+            </div>
+            <div class="group">
+                <label>Upload Resume</label>
+                <input type="file" required>
+            </div>
+        </fieldset>
+        <br>
+        <div class="group" style="justify-content: center;">
+            <input style=cursor:pointer type="submit" value="Submit">
+            <input style=cursor:pointer type="reset" value="Reset">
+        </div>
+        </form>  
+    </div>
+</body>
+</html>
